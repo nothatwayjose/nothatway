@@ -20,7 +20,7 @@ export default function About() {
             I'm a Peruvian-Australian business development professional with six years in real estate and property operations across Australia, followed by two years in Miami working in fintech and money services.
           </p>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(260px,1fr))", gap: 1, background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.08)", marginTop: "clamp(48px,7vh,72px)" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,260px),1fr))", gap: 1, background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.08)", marginTop: "clamp(48px,7vh,72px)" }}>
           {panels.map(([t, d]) => (
             <div key={t} style={{ background: "#0b0d10", padding: 32 }}>
               <div style={panelLabel}>{t}</div>

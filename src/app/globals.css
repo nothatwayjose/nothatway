@@ -1,5 +1,6 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+html, body { max-width: 100%; overflow-x: hidden; }
 body { margin: 0; background: #0b0d10; color: #e8eaed; font-family: 'Manrope', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
 a { color: #e8eaed; text-decoration: none; }
 a:hover { color: #ffffff; }
@@ -7,3 +8,5 @@ a:hover { color: #ffffff; }
 input::placeholder, textarea::placeholder { color: #5a616b; }
 input:focus, textarea:focus, select:focus { outline: none; border-color: #e8eaed; }
 select option { background: #14171c; color: #e8eaed; }
+
+img { max-width: 100%; height: auto; }

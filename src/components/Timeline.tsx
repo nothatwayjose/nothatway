@@ -1,9 +1,12 @@
 import { ACCENT, display } from "@/lib/theme";
 
 const nodes = [
-  ["Australia", "6 years · Real estate & property operations", "Property management, valuation, leasing, and residential operations across Queensland — the foundation of my client, negotiation, and operations experience."],
-  ["Miami, USA", "2 years · Fintech & money services", "Business development at Shield — building stablecoin payments, cross-border transactions, business banking, and international B2B financial infrastructure."],
-  ["Peru", "Ongoing · Development & international trade", "Real estate development in Huacho alongside international electronics sourcing and distribution with Maywei — connecting Latin American markets with global supply."],
+  ["Gold Coast, Australia", "2010–2016 · Foundations", "Bond University — Bachelor of Commerce (Finance), later a Master of Valuation. Founded and exited Body Dynamics Training, a multi-disciplinary allied-health gym. Former Peru Rugby 7s player."],
+  ["Brisbane, Australia", "2016–2022 · Commercial real estate", "Six years across the full asset lifecycle — McGees Property, CBRE, Ray White Commercial and Pellicano. Sales, leasing, facilities and development; personally sold and leased AUD 10M+ and supported deals up to $63.5M."],
+  ["Miami, USA", "2022–2024 · Maywei (Consumer Tech)", "Head of Sales, Business Development & Equity Partner (exited). Grew the customer base from 2 to 120+ in 12 months, built the CRM and LATAM strategy, and drove $10M+ turnover across cross-border transactions."],
+  ["South Florida, USA", "2024–2025 · Ventures & operations", "Business brokering and commercial real estate at WestVest; property management of a 204-unit Blackstone affordable-housing portfolio with FPI; and freelance video, copywriting and creative direction for Miami F&B venues."],
+  ["Lima, Peru", "2025 · International trade", "Head of International Sales at Artidoro Rodriguez Café, a pioneering Peruvian specialty-coffee brand — expanding distribution across Peru and into the United States."],
+  ["Miami · APAC", "2025–Present · Shield (FinTech)", "International Sales Manager at Shield, an a16z-backed, FinCEN-registered money-services business. Lead generation and client activation for stablecoin payments — same-day USDT-to-USD settlement for wholesalers and cross-border traders."],
 ];
 
 export default function Timeline() {

@@ -5,5 +5,4 @@ const nextConfig = {};
 
 export default nextConfig;
 
-// Enables Cloudflare bindings when using `next dev` locally.
 initOpenNextCloudflareForDev();
