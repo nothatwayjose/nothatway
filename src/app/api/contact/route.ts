@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
 import { contactSchema } from "@/lib/validation";
 
-// Runs on the edge so it works on Cloudflare Pages/Workers.
-export const runtime = "edge";
+// Uses the Node.js runtime for Cloudflare/OpenNext compatibility.
+export const runtime = "nodejs";
 
 export async function POST(request: Request) {
   let body: unknown;
